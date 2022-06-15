@@ -1,0 +1,1 @@
+1,null,AnnaKarenina,book,author,date,isbn-10,isbn-13,place,8,33,language,publisher,311

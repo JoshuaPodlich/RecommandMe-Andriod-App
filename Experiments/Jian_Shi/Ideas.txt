@@ -1,0 +1,11 @@
+Springboot:
+	encapsulation of Spring framework
+	(1) Stand-alone Spring applications can be created, and based on their Maven or Gradle plugins, executable JARs and WARs can be created;
+	(2) Embedded Servlet containers such as Tomcat or Jetty;
+	(3) Provide an auto-configured "starter" Project Object Model (POMS) to simplify Maven configuration;
+	(4) Automatically configure the Spring container as much as possible;
+	(5) Provide ready features such as metrics, health checks, and externalized configuration;
+	(6) Absolutely no code generation, no XML configuration required
+
+Maven: 
+	Project construction, management, jar package download

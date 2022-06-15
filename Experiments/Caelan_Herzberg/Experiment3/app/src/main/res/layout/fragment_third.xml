@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".ThirdFragment">
+
+    <Button
+        android:id="@+id/button_third_previous"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="462dp"
+        android:text="@string/previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <Button
+        android:id="@+id/button_third_next"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="462dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <Button
+        android:id="@+id/button_third_home"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="462dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/baliMynaTitle"
+        android:layout_width="413dp"
+        android:layout_height="109dp"
+        android:background="#00BCD4"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center_horizontal"
+        android:text="Bali Myna"
+        android:textAlignment="center"
+        android:textColor="#EDEEEF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+
+        tools:ignore="TextContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/baliMynaScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        android:background="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/baliMynaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="The Bali myna (Leucopsar rothschildi), also known as Rothschild's mynah, Bali starling, or Bali mynah, locally known as jalak Bali, is a medium-sized (up to 25 cm (9.8 in) long), stocky myna, almost wholly white with a long, drooping crest, and black tips on the wings and tail. The bird has blue bare skin around the eyes, greyish legs and a yellow bill. Both sexes are similar. It is critically endangered and in 2018, fewer than 100 adults were assumed to exist in the wild."
+                android:textColor="#33691E"
+                android:textSize="34sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/baliMynaPicture"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginBottom="217dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="The image of a Bali Myna"
+        android:scaleType="matrix"
+        android:src="@drawable/balimyna"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/balimyna" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

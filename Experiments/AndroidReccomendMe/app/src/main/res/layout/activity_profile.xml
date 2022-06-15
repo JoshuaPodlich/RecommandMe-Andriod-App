@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <Button
+        android:id="@+id/btnProfileProfile"
+        android:layout_width="137.3dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="95dp"
+        android:text="Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnProfileHome"
+        app:layout_constraintTop_toBottomOf="@+id/btnProfilePicture" />
+
+    <Button
+        android:id="@+id/btnProfileLogin"
+        android:layout_width="137.3dp"
+        android:layout_height="100dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnProfileHome"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnProfileHome"
+        android:layout_width="137.3dp"
+        android:layout_height="100dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnProfileProfile"
+        app:layout_constraintStart_toEndOf="@+id/btnProfileLogin" />
+
+    <ImageView
+        android:id="@+id/imageProfilePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="368dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnProfileHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="329dp"
+        android:text="Username"
+        app:layout_constraintBottom_toTopOf="@+id/btnProfileHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageProfilePicture" />
+
+    <Button
+        android:id="@+id/btnPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="247dp"
+        android:text="Change Password"
+        app:layout_constraintBottom_toTopOf="@+id/btnProfileHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textUsername" />
+
+    <Button
+        android:id="@+id/btnUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="171dp"
+        android:text="Change Username"
+        app:layout_constraintBottom_toTopOf="@+id/btnProfileHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPassword" />
+
+    <Button
+        android:id="@+id/btnProfilePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="95dp"
+        android:text="Change Profile Picture"
+        app:layout_constraintBottom_toTopOf="@+id/btnProfileHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUsername" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="19dp"
+        android:text="Log Out"
+        app:layout_constraintBottom_toTopOf="@+id/btnProfileHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProfilePicture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

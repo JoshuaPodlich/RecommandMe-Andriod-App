@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:style="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Chat Room</title>
+</head>
+<body>
+<table style="width: 100%">
+    <tr>
+        <td>
+            <div align="center"><input type="text" id="username" style:width=100% placeholder="Username" />
+                <button type="button" class = "button" onclick="connect();">Connect</button>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div align="center">
+                <textarea readonly="true" rows="50" cols="80" class = "box" id="log"></textarea>
+            </div>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div align="center">
+                <input type="text" size="70"  id="msg" placeholder="Message" />
+                <button type="button" class = "button" onclick="send();">Send</button>
+            </div>
+
+            <div align="center">
+                <form method = "get" action="leave.html">
+                    <button type = "submit" class = "button" >End Chat</button>
+                </form>
+            </div>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+<script src="websocket.js"></script>
+</html>

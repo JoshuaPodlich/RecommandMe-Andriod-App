@@ -1,0 +1,35 @@
+Jian Shi edit:
+    Demo #2.0 explanation: 
+        Current we have serveral tables: BookCategory, MovieCategory, RestaurantCategory, TVShowCategory, VideoGameCategory + Comment
+
+        Comment controller functionality:
+            @GetMapping + @PostMapping + @PutMapping + @DeleteMapping
+
+            @GetMapping:
+                find all info in the comment table;
+                find specific id's comment;
+            @PostMapping:
+                post all comment info through postman by JSON
+            @PutMapping:
+                change the review text in the comment table column specificed by an id
+            @DeleteMapping:
+                Delete a row by id in comment table
+
+        Category controller functionality:
+            @GetMapping + @PostMapping
+
+            @GetMapping:
+                find each category info in the comment table;
+
+            @PostMapping:
+                post each category info through postman by JSON
+        
+    Demo #3.0 explanation:
+        Response: Jian Shi is in charge of fixing admin and user table relationship bugs and build relationship between comment and user.
+                  Also create MovieCategory + Book relationship with comment.
+                  Wenqing wu is in charge of building admin and user table relationships. Create RestaurantCategory + TVShowCategory  + VideoGameCategory relationship with comment
+                  Also create ratetable and add relationships.
+        
+
+
+

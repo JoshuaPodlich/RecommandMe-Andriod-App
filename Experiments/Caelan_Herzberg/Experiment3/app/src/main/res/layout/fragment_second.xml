@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".SecondFragment">
+
+    <Button
+        android:id="@+id/button_second_previous"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="462dp"
+        android:text="@string/previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <Button
+        android:id="@+id/button_second_next"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="462dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <Button
+        android:id="@+id/button_second_home"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="462dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/toucanTitle"
+        android:layout_width="413dp"
+        android:layout_height="109dp"
+        android:background="#00BCD4"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center_horizontal"
+        android:text="Toucan"
+        android:textAlignment="center"
+        android:textColor="#EDEEEF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+
+        tools:ignore="TextContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/toucanScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        android:background="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/toucanTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Toucans (/ˈtuːkæn/, UK: /-kən/) are members of the Neotropical near passerine bird family Ramphastidae. The Ramphastidae are most closely related to the American barbets. They are brightly marked and have large, often colorful bills. The family includes five genera and over forty different species.Toucans are arboreal and typically lay 2–21 white eggs in their nests. They make their nests in tree hollows and holes excavated by other animals such as woodpeckers—the toucan bill has very limited use as an excavation tool. When the eggs hatch, the young emerge completely naked, without any down. Toucans are resident breeders and do not migrate. Toucans are usually found in pairs or small flocks. They sometimes fence with their bills and wrestle, which scientists hypothesize they do to establish dominance hierarchies. In Africa and Asia, hornbills occupy the toucans' ecological niche, an example of convergent evolution.[1]"
+                android:textColor="#33691E"
+                android:textSize="34sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/toucanPicture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="107dp"
+        android:layout_marginBottom="217dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="The image of a Toucan"
+        android:src="@drawable/toucan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

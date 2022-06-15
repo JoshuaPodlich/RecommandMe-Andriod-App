@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLayout">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:layout_column="0" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="New Text"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="New Text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textIsAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="New Text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textIsAbleToComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="New Text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textIsBanned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="New Text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonToggleAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="Toggle Admin" />
+
+    <Button
+        android:id="@+id/buttonToggleBanned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="Toggle Banned" />
+
+    <Button
+        android:id="@+id/buttonToggleComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="Toggle Commenting" />
+
+
+</GridLayout>
