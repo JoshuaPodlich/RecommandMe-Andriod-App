@@ -1,18 +1,12 @@
 # Project Title
-
+RecommandMe App (Andriod)
 
 ## Description
-
-
-
-### Dependencies
- 
-
-
-## Installation  
-
+This App is created for college students to share, rank, like or dislike their favorites. Users can communicate with each other about their opinion. 
 
 ## Contributors 
-* Firstname Lastname   (email@iastate.edu)
-* Jian Shi (shi@iastate.edu)
+* Jian Shi (shi@iastate.edu) Backend part
+
+##  Notes
+The app is build on ISU liberal Arts Server and the server may ends in Jun. 2022
 
